@@ -1,16 +1,21 @@
 function About() {
   return (
-    <section id="about" className="py-24 px-6">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6">
+    <section
+      id="about"
+      className="py-24 text-center"
+    >
+      <div className="max-w-5xl mx-auto px-6">
+
+        <h2 className="text-5xl font-bold mb-8">
           About Us
         </h2>
 
-        <p className="text-lg text-gray-600">
-          We help businesses establish a strong online
-          presence using modern web technologies,
-          responsive design, and scalable solutions.
+        <p className="text-xl text-slate-600">
+          We specialize in creating
+          innovative digital products
+          that help businesses grow.
         </p>
+
       </div>
     </section>
   );
